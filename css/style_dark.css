@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Madimi+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#fc921100;
+    --secondary-color:#d0c4f000;
+    --font-titles: 77px;
+    --font-subtitles: 35px;
+    --primary-tip: font-family: "Madimi One", sans-serif;
+    --segundary-tip: font-family: "Libre Baskerville", serif;
+}
+
+#cont-general{
+    width: 100%;
+    min-height: 100hv;
+    margin-top: 100px;
+    background: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cont-calculadora{
+    width: 500px;
+    height: 680px;
+    border: 1px solid var(--primary-color);
+}
+
+#cont-text{
+    width: 100%;
+    padding: 20px;
+}
+
+#cont-text input{
+    width: 100%;
+    font-size: var(--font-titles);
+    color: #ffff;
+    border: 3px solid #ffffff;
+}
+
+#cont-botones{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn{
+    width: 22%;
+    padding: 20px;
+    font-size: var(--font-subtitles);
+    margin-bottom: 20px;
+}
+.btn1{
+    width: 22%;
+    padding: 20px;
+    font-size: var(--font-subtitles);
+    margin-bottom: 20px;
+}
+
+.btn.doble{
+    width: 48%;
+}
+
+.btn{
+    background-color: #333;
+    box-shadow: 5px 5px 15px #b300ff71,
+    -5px -5px 15px #000000;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    color: #ffff;
+    cursor: pointer;
+    
+}
+
+.neumorphism{
+    background-color: #222;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.num{
+    background: #05050500;
+    border: 1px solid  #ffffff00;
+    border-radius: 35px;
+}
+
+.btn1{
+    background-color: #c74efbd7;
+    box-shadow: 5px 5px 15px #b300ffc8,
+    -5px -5px 15px #000000;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.modo_dark{
+    position: absolute;
+    right: 35px;
+    bottom: 35px;
+    font-size: 30px;
+    color: #e3e5c8;
+    background-color: #d2d2d2;
+    border-radius: 70px;
+    border: none;
+    cursor: pointer;
+    padding: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
